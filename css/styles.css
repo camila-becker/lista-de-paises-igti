@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ebebeb;
+    width: 940px;
+    margin: 0 auto;
+    
+    font-family:'Nunito', sans-serif;;
+}
+
+h1{
+    margin-top: 40px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#country-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: left;
+}
+
+#favorite-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: right;
+}
+
+h3 {
+    font-size: 20px ;
+}
+
+.count-countries, .count-favorites{
+    font-size: 20px;
+}
+
+p{
+    font-size: 14px;
+}
+
+.total-country, .total-favorites{
+    font-size: 14px;
+}
+
+#countries, #favorites{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.add-button, .remove-button{
+    padding: 0 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    margin-right: 10px;
+    height: 40px;
+    line-height: 2.2;
+
+    cursor: pointer;
+    transition: background-color linear 200ms;
+}
+
+.add-button{
+    background-color: #009e91;
+}
+
+.add-button:hover{
+    background-color: #07ddcb;
+}
+
+.remove-button{
+    background-color: #c53030;
+}
+
+.remove-button:hover{
+    background-color: #d64848;
+}
+
+.flag{
+    border-radius: 50%;
+
+    width: 60px;
+    height: 60px;
+
+    margin-right: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+.country-name, .country-population{
+    font-size: 14px;
+}
